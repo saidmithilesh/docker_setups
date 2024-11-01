@@ -1,0 +1,5 @@
+psql -U postgres
+
+CREATE DATABASE <db_name>;
+CREATE USER <user_name> WITH PASSWORD '<password>';
+GRANT ALL PRIVILEGES ON <db_name> TO <user_name>;
